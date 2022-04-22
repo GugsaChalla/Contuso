@@ -32,7 +32,7 @@ html, body {
 .nav a {
     display: inline-block;
     padding: .5em;
-    color: white;
+    color: rgb(46, 71, 135);
     text-decoration: none;
 }
 
@@ -52,7 +52,6 @@ html, body {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .6);
     background-image: url("Images/Header Background.jpg");
     background-blend-mode: multiply;
     background-size: cover;
@@ -63,9 +62,9 @@ html, body {
     text-align: center;
     margin: 0;
     font-size: 4em;
-    font-family: "Booter - Zero Zero";
+    font-family: "Roboto";
     font-weight: normal;
-    color: white;
+    color: rgb(46, 71, 135);
 }
 
 .band-name-large {
@@ -338,3 +337,44 @@ html, body {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+.logo{
+    height: 150px;
+    width: 250px;
+}
+.twitter{
+    background-color: transparent;
+}
+
+.shop {
+    background: none;
+    color: #56CCF2;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    margin-left: 45%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+  
+  .shop:hover{
+    border-color: #2D9CDB;
+    color:#2D9CDB;
+    box-shadow: 0 0.5em 0.5em -0.5em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+.column {
+    float: left;
+    width: 33%;
+  }
+  .column img{
+      height: 400px;
+      width: 250px;
+  }
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
