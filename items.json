@@ -1,42 +1,64 @@
 {
-  "music": [
+  "lighting": [
     {
       "id": 1,
-      "name": "Album 1",
-      "price": 1299,
+      "name": "Front Bulb",
+      "price": 30000,
       "imgName": "Album 1.png"
     },
     {
       "id": 2,
-      "name": "Album 2",
-      "price": 1499,
+      "name": "Rear Bulb",
+      "price": 150000,
       "imgName": "Album 2.png"
     },
     {
       "id": 3,
-      "name": "Album 3",
-      "price": 999,
+      "name": "Interior Lights",
+      "price": 10000,
       "imgName": "Album 3.png"
-    },
-    {
-      "id": 4,
-      "name": "Album 4",
-      "price": 1999,
-      "imgName": "Album 4.png"
     }
   ],
-  "merch": [
+
+  "Engine": [
     {
-      "id": 5,
-      "name": "T-Shirt",
-      "price": 1999,
+      "id": 4,
+      "name": "Clutch",
+      "price": 200000,
       "imgName": "Shirt.png"
     },
     {
+      "id": 5,
+      "name": "Wheel Hubs",
+      "price": 100000,
+      "imgName": "Cofee.png"
+    },
+    {
       "id": 6,
-      "name": "Coffee Cup",
-      "price": 699,
+      "name": "Exhuast",
+      "price": 150000,
+      "imgName": "Cofee.png"
+    }
+  ],
+  "Brakes": [
+    {
+      "id": 7,
+      "name": "Brake Discs",
+      "price": 400000,
+      "imgName": "Shirt.png"
+    },
+    {
+      "id": 8,
+      "name": "Speed Sensors",
+      "price": 90000,
+      "imgName": "Cofee.png"
+    },
+    {
+      "id": 9,
+      "name": "Ball Joints",
+      "price": 100000,
       "imgName": "Cofee.png"
     }
   ]
 }
+
