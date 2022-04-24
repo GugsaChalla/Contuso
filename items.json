@@ -4,61 +4,60 @@
       "id": 1,
       "name": "Front Bulb",
       "price": 30000,
-      "imgName": "Album 1.png"
+      "imgName": "frontBulb.png"
     },
     {
       "id": 2,
       "name": "Rear Bulb",
       "price": 150000,
-      "imgName": "Album 2.png"
+      "imgName": "rearBulbs.png"
     },
     {
       "id": 3,
       "name": "Interior Lights",
       "price": 10000,
-      "imgName": "Album 3.png"
+      "imgName": "interiorLights.png"
     }
+    
   ],
-
-  "Engine": [
+  "engine": [
     {
       "id": 4,
       "name": "Clutch",
       "price": 200000,
-      "imgName": "Shirt.png"
+      "imgName": "clutch.png"
     },
     {
       "id": 5,
       "name": "Wheel Hubs",
       "price": 100000,
-      "imgName": "Cofee.png"
+      "imgName": "wheelHubs.png"
     },
     {
       "id": 6,
-      "name": "Exhuast",
+      "name": "Exhaust",
       "price": 150000,
-      "imgName": "Cofee.png"
+      "imgName": "exhaustSystem.png"
     }
   ],
-  "Brakes": [
+  "brakes": [
     {
       "id": 7,
-      "name": "Brake Discs",
+      "name": "Brakes Disks",
       "price": 400000,
-      "imgName": "Shirt.png"
+      "imgName": "brakeDisk.png"
     },
     {
       "id": 8,
-      "name": "Speed Sensors",
+      "name": "Speed Censors",
       "price": 90000,
-      "imgName": "Cofee.png"
+      "imgName": "speedCensors.png"
     },
     {
       "id": 9,
       "name": "Ball Joints",
       "price": 100000,
-      "imgName": "Cofee.png"
+      "imgName": "ballJoint.png"
     }
   ]
 }
-
