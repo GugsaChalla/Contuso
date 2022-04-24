@@ -34,8 +34,10 @@ app.post('/purchase', function(req, res) {
             res.status(500).end()
         } else {
             const itemsJson = JSON.parse(data)
-            const itemsArray = itemsJson.music.concat(itemsJson.merch)
-            let total = 0
+            const itemsArray = itemsJson.lighting.concat(itemsJson.engine,itemsJson.brakes)
+            console.log(req.body)
+            console.log(req.body.items)
+            let total = 0;
             req.body.items.forEach(function(item) {
                 const itemJson = itemsArray.find(function(i) {
                     return i.id == item.id
@@ -49,8 +51,7 @@ app.post('/purchase', function(req, res) {
                 currency: 'usd'
             }).then(function() {
                 console.log("CHARGE SUCCESSFUL")
-                // res.json({message: 'Successfully purchased items'})
-                alert("Sucessfully purchased items")
+                res.json({message: 'Successfully purchased items'})
             }).catch(function() {
                 console.log("CHARGE FAILED")
                 res.status(500).end()
@@ -59,4 +60,4 @@ app.post('/purchase', function(req, res) {
     })
 }) 
 
-app.listen(3001)
+app.listen(3000)

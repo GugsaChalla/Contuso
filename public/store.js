@@ -47,7 +47,7 @@ var stripeHandler = StripeCheckout.configure({
         fetch('/purchase', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/jspn',
+                'Content-Type': 'application/json',
                 'Accept': 'application/json'
             },
             body: JSON.stringify({
